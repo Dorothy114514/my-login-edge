@@ -1,0 +1,29 @@
+.title {
+  background: rgb(160, 121, 242);
+}
+.loginContainer {
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media screen and (orientation: landscape) {
+  .loginContainer {
+    max-width: 400px;
+    padding: 40px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .loginContainer {
+    max-width: 90%;
+    padding: 24px;
+  }
+}
+.button {
+  align-self: center;
+}
